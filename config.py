@@ -2,9 +2,9 @@ from os import environ
 
 
 # BOT CONFIG
-API_ID = environ.get("API_ID", 123456)  # api id
-API_HASH = environ.get("API_HASH", "")  # api hash
-BOT_TOKEN = environ.get("BOT_TOKEN", "")  # bot token
+API_ID = environ.get("API_ID", 27323947)  # api id
+API_HASH = environ.get("API_HASH", "211dba8a43cb8dc40d4cd65c5b41fba0")  # api hash
+BOT_TOKEN = environ.get("BOT_TOKEN", "6712079850:AAE2eZAdVBoy4QIj1l5nl3zUd2QuSg5YWG4")  # bot token
 
 # REDIS
 REDIS_HOST = environ.get("REDIS_HOST", "localhost")  # redis host uri
@@ -22,4 +22,4 @@ DUMP_CHANNEL = -100
 
 
 # Config
-COOKIE = environ.get("COOKIE", "")
+COOKIE = environ.get("COOKIE", "csrfToken=RSmnbpJ8qFnYCGuYuOHjS365; browserid=BsBuLAkvVJnOGaOUvoirrpGTKLFFncyDfBIjZxPgCm_L5Kmhe4n78a-LMV4=; lang=en; TSID=GedDbyBkCJer0bVcLT69CQSPNuGnW8JX; __bid_n=191382c3bbad78575c4207; ab_ymg_result={"data":"489d435dcfa0268e86eb77286ab9585c4a0be5afb8a04d0b07fdb6067d1c801a2c6d7b205217cc27bfbc14bcfc125bc822af96be83d5ff67837bd7fa0defc3afe378dc3e5fe8fd0033863dc27534d8ac64ed5a3ac5a5438113465df5a92cb9e110d99d2ce49b9f1dbd21fdd6468bbbd0d24fd20b2ae629b28ec6915ba23ccabb","key_id":"66","sign":"fd606f74"}; _ga=GA1.1.340427065.1723224317; g_state={"i_l":0}; ndus=Y4s8SeKteHuiixZ6MnFaXvzZ6Wk1UmR5M1KyE4YN; ndut_fmt=DB9450DDC2289D97E9F00807EC6986D4C4C0D13B4F2DF0F8261009324B6146A4; ab_sr=1.0.1_M2NkM2Y0Y2JjMmIzZTA4ZTI3MTFhMjYyMGVlMjBlOGIyMTliOWZlYmM1Yjc4YzA5NDY0MzlmZGFkYTI5NTYzZmJhNDFkMTk1NmJmZDgzNzA1MDg4YjFiZGZiYWM3ZjYyZjg2YmM2MTkxNTdmOWJjNTcyODhjMGY0YzMzMTY3NTJkZDE5NWYyOGQxZDYxYTFjNjU2YTVlNzFmZDM5YjI0Ng==; _ga_06ZNKL8C2E=GS1.1.1723224316.1.1.1723224557.16.0.0")
